@@ -4,24 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>TOEIC 700 Reading Master</title>
-
-    <!-- Tailwind CDN（任意。使わないなら削除可） -->
+    <!-- 任意: Tailwind CDN を使うなら残す -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Viteが生成するCSS（存在しなくてもエラーにはなりません） -->
-    <link rel="stylesheet" href="/index.css" />
   </head>
   <body class="bg-slate-100">
     <!-- ★ ここにReactが描画されます -->
     <div id="root"></div>
 
-    <!-- ★ あなたの構成に合わせて。今のリポジトリは index.tsx がルート直下なのでこれでOK -->
+    <!-- ★ あなたの構成は index.tsx がリポジトリ直下なのでこれでOK -->
     <script type="module" src="/index.tsx"></script>
-
-    <!--
-      もし later で Vite標準の src/main.tsx 構成に変える場合は、上の1行を
-      <script type="module" src="/src/main.tsx"></script>
-      に変更してください。
-    -->
   </body>
 </html>
